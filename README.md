@@ -1,1 +1,1 @@
-# A `JSON` file for *WdpServer*
+# Files for developing *WdpServer*
