@@ -4,14 +4,14 @@ After you did that
 '''/home [name]'''
 	Make [name] the name of your home, if you dont fill that in you will get a gui with options.
 
-### How do i link discord?
+## How do i link discord?
 - Go to the server.
 - Type the command '''/discord link'''
 - Get the code!
 - go to the <#1377998030384660580> channel and fil in the code.
 - Now you have access the **Home system** and you recieve **1k of money**
 
-### I cant join!
+## I cant join!
 Check if the server is online by looking at the topic of <#1375876494462681219>.
 If its offline wait for 5 minutes and try again!
 Contact staff and admin if you need extra help.
