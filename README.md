@@ -1,8 +1,6 @@
 # 📄 WDP Server Documentation
 
-Welcome to the official documentation for the **WDP Minecraft Server**.  
-This covers everything you need to know to get started, survive, and thrive.
-
+# Licence: All right reserved ©
 ---
 
 ## 🧭 How to Join
@@ -11,17 +9,6 @@ This covers everything you need to know to get started, survive, and thrive.
 - **IP Address:** `play.wdpserver.com`  
 - **Version:** 1.21.4 *(any version works)*  
 - **Location:** EU (Belgium)
-
----
-
-## 📜 Rules
-
-- ❌ No cheating, hacking, or exploiting bugs  
-- ❌ No hate speech, slurs, or harassment  
-- ❌ No spam or excessive griefing  
-- ✅ Be respectful. Chill vibes only.
-
-> Breaking rules will result in bans or heart wipes.
 
 ---
 
@@ -50,18 +37,27 @@ Join our Discord server for:
 
 ## ❓ FAQ
 
-**Q: Can I play with a cracked launcher?**  
-A: Yes. We support both cracked and premium accounts.
+### How do i make a home?
+To make a home you need to **link discord** (see next questions) first!
+After you did that
+`/home [name]`
+	Make [name] the name of your home, if you dont fill that in you will get a gui with options.
 
-**Q: I lost all my hearts. What now?**  
-A: You’re auto-banned for an hour. After that, you can rejoin.  
-Ask staff nicely if you think it was unfair.
+### How do i link discord?
+- Go to the server.
+- Type the command `/discord link`
+- Get the code!
+- go to the <#1377998030384660580> channel and fil in the code.
+- Now you have access the **Home system** and you recieve **1k of money**
 
-**Q: Can I apply for staff?**  
-A: Yup. Go to the `#applications` channel on Discord.
+### I cant join!
+Check if the server is online by looking at the topic of Server Chat In the discord server.
+If its offline wait for 5 minutes and try again!
+Contact staff and admin if you need extra help.
 
-**Q: Is the server online 24/7?**  
-A: Yep. We’re up all day every day.
+### I want to invite friend, can I?
+Yes, ofcourse you can!
+BUT, they need to speak **english**
 
 ---
 
@@ -77,4 +73,3 @@ A: Yep. We’re up all day every day.
 
 Made with ✨ by **Re1.exe**  
 Website: [https://re1exe.github.io](https://re1exe.github.io)  
-Design, Code, Lore, and Chaos: **You**
