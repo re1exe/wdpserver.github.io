@@ -15,11 +15,11 @@
 	•	Usage: /faq
 	•	Description: Get answers to frequently asked questions (e.g. griefing, teleporting, PvP rules).
 
-4 - /status (alr done)
+4 - /status (DONE)
 	•	Usage: /status
 	•	Description: Shows whether the server is online and how many players are online.
 
-5 - /ip
+5 - /ip (DONE) 
 	•	Usage: /ip
 	•	Description: Displays the server IP and supported versions.
 
@@ -27,27 +27,24 @@
 	•	Usage: /start
 	•	Description: Sends a getting-started guide for new players, including helpful commands and tips.
 
-7 - /hearts
-	•	Usage: /hearts
-	•	Description: Explains the Lifesteal system, including how to gain and lose hearts.
-
-8 - /warps
+7 - /warps
 	•	Usage: /warps
 	•	Description: Lists all available public warps/teleports on the server.
 
-9 - /commands
+8 - /commands  
 	•	Usage: /commands
 	•	Description: Lists useful in-game Minecraft commands for survival, Lifesteal, and teleportation.
+	•	Text: 
 
-10 - /suggest
+9 - /suggest (DONE) 
 	•	Usage: /suggest [message]
 	•	Description: Submit a server or bot suggestion that admins can review, send as a message in a admin only channel
 
-11 - /report 
+10 - /report (DONE) 
 	•	Usage: /report [user] [reason] (user is a discord user)
 	•	Description: Report a rulebreaker or issue directly to staff.  send as a message in a admin only channel.
 
-12 - /help
+11 - /help (DONE) 
 	•	Usage: /help
 	•	Description: Lists all available bot commands with descriptions.
 
