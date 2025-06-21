@@ -34,7 +34,7 @@
 8 - /commands  
 	•	Usage: /commands
 	•	Description: Lists useful in-game Minecraft commands for survival, Lifesteal, and teleportation.
-	•	Text: 
+	•	Text: see commands.txt (fetch?)
 
 9 - /suggest (DONE) 
 	•	Usage: /suggest [message]
