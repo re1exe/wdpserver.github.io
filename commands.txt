@@ -1,0 +1,25 @@
+# 📘 Server Commands
+
+## 🧭 /spawn
+Teleports you instantly to the spawn area. Great for regrouping or escaping threats.
+
+## 🏠 /sethome, /home
+Use /sethome to mark your base or safe zone. Return anytime using /home.
+
+## 🤝 /tpa, /tpaccept
+Send and accept teleport requests to quickly travel to other players.
+
+## 💬 /msg <player> <message>
+Privately message other players. Only you and the recipient will see it.
+
+## ❤️ /lifesteal:hearts
+View how many extra hearts you have gained or lost with the Lifesteal system.
+
+## 🔙 /back
+Teleport to your last location after teleporting or death (if enabled).
+
+## 💸 /pay <player> <amount>
+Transfer money to another player for trading or helping friends.
+
+## 🔗 /discord link
+Link your Minecraft and Discord accounts using a code from the #link channel.
