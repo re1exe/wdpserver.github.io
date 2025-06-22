@@ -65,9 +65,6 @@ fetch(`https://discord.com/api/v9/invites/${INVITE_CODE}?with_counts=true`)
   alert("Copied to clipboard!");
 }
 
-const Year = new Date().getFullYear()
-
-document.getElementById("copyright").innerHTML = Year;
 
 
 
@@ -92,4 +89,34 @@ fetch("projects.json")
     })
     .catch(error => console.error("Error fetching wiki content", error));
 
-    
+
+    document.addEventListener("DOMContentLoaded", () => {
+  fetch("staff.json")
+    .then(response => response.json())
+    .then(admins => {
+      const placeholder = document.getElementById("staffMembers");
+      let out = "";
+
+      for (let staff of admins.slice(0, 6)) {
+        out += `
+          <div class="staff">
+          <img src="${staff.Profile}" alt="Profile">
+            <h1>${staff.Name}</h4>
+            <h4>${staff.Description}</h4>
+            <p>${staff.Role}</p>
+            <p>${staff.Discord}</p>
+            <p>${staff.Socials}</p>
+            </div>
+        `;
+      }
+
+      placeholder.innerHTML = out;
+    })
+    .catch(error => console.error("Error fetching staff content", error));
+});
+
+
+
+const Year = new Date().getFullYear()
+
+document.getElementById("copyright").innerHTML = Year;

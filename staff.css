@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+25&family=Micro+5&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+25&family=Micro+5&display=swap");
+.owner {
+  padding-bottom: 0.7vh;
+  padding-top: 0.7vh;
+  padding-left: 0.7vh;
+  padding-right: 0.7vh;
+  text-align: center;
+  background-color: rgba(220, 20, 60, 0.6);
+  text-shadow: 0 0 0.8vh black;
+  border-radius: 1vh;
+}
+
+.developer {
+  padding-bottom: 0.7vh;
+  padding-top: 0.7vh;
+  padding-left: 0.7vh;
+  padding-right: 0.7vh;
+  text-align: center;
+  background-color: rgba(27, 20, 220, 0.6);
+  text-shadow: 0 0 0.8vh black;
+  border-radius: 1vh;
+}
+
+.navbar {
+  text-shadow: 0 0 1vh black;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 8vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+          backdrop-filter: blur(10px) saturate(150%);
+  background: rgba(20, 20, 20, 0.13);
+  z-index: 1000;
+}
+.navbar .logo img {
+  filter: drop-shadow(0 0 1vh black);
+  width: 7vh;
+  padding-left: 3vh;
+}
+.navbar .menu {
+  font-family: "Jersey 25", sans-serif;
+  display: flex;
+  gap: 3vw;
+  margin-right: 3vh;
+}
+.navbar .menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3vh;
+  transition: all 0.4s;
+}
+.navbar .menu a:hover {
+  color: #9F22B3;
+  text-shadow: 0 0 2vh black;
+}
+
+footer {
+  font-family: "Jersey 15", sans-serif;
+  text-shadow: 0 0 1vh black;
+  bottom: 0;
+  width: 100%;
+  height: 35%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+          backdrop-filter: blur(10px) saturate(150%);
+  background-color: rgba(19, 19, 21, 0.768627451);
+  color: white;
+  box-shadow: 0 0 6vh black;
+}
+footer h2 {
+  font-size: 6vh;
+  margin: 4vh;
+  filter: drop-shadow(0 0 1vh #7A7A7A);
+}
+footer .links {
+  margin: 4vh;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2vh;
+}
+footer a a:visited {
+  color: #CB76FF;
+}
+footer a span {
+  text-decoration: underline;
+  color: #CB76FF;
+}
+footer img {
+  filter: invert(100%) brightness(10000%);
+  width: 5vh;
+}
+footer .wdpLogo {
+  filter: none;
+  transform: translateY(0.4vh);
+}
+footer .copy {
+  display: grid;
+  grid-row: 2 2;
+  text-align: center;
+  bottom: 0vh;
+  color: #FF7373;
+}
+footer .copy #copyright {
+  text-decoration: none;
+  color: #FF7373;
+}
+
+#staffMembers {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+  padding: 5vh 0;
+}
+
+.staff {
+  text-align: center;
+  font-family: "Jersey 25", sans-serif;
+  background: #0E0E10;
+  color: white;
+  padding: 3em;
+  margin: 2vh 0;
+  width: 50vh;
+  border-radius: 3vh;
+  box-shadow: 0 0 2vh rgba(0, 0, 0, 0.49);
+}
+.staff img {
+  height: 10vh;
+  width: 10vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1vh;
+}
+
+@media only screen and (min-width: 600px) {
+  .staff {
+    width: 20%;
+  }
+}/*# sourceMappingURL=staff.css.map */

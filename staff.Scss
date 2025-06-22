@@ -1,0 +1,189 @@
+// VARIABLES
+$backgroundDefault: #1B1C1F;
+$fontTitle: "Jersey 15", sans-serif;
+$fontOther: "Jersey 25", sans-serif;
+
+//RANKS
+.owner { 
+  padding-bottom: 0.7vh;
+  padding-top: 0.7vh;
+  padding-left: 0.7vh;
+  padding-right: 0.7vh;
+  text-align: center;
+  background-color: rgba(220 20 60 / 0.6);
+  text-shadow: 0 0 0.8vh black;
+  border-radius: 1vh;
+}
+.developer {
+  padding-bottom: 0.7vh;
+  padding-top: 0.7vh;
+  padding-left: 0.7vh;
+  padding-right: 0.7vh;
+  text-align: center;
+  background-color: rgba(27 20 220 / 0.6);
+    text-shadow: 0 0 0.8vh black;
+    border-radius: 1vh;
+}
+
+// IMPORT
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap'); 
+//    "Jersey 15", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+25&family=Micro+5&display=swap');
+//    "Micro 5", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+25&family=Micro+5&display=swap');
+//    "Jersey 25", sans-serif;
+
+.navbar {
+  text-shadow: 0 0 1vh black;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 8vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(10px) saturate(150%);
+  background: rgba(20, 20, 20, 0.13);
+  z-index: 1000;
+
+  .logo {
+    img {
+    -webkit-filter: drop-shadow(0 0 1vh black);
+    filter: drop-shadow(0 0 1vh black);
+    width: 7vh;
+    padding-left: 3vh;
+    
+    }
+  }
+    .menu {
+      font-family: $fontOther;
+    display: flex;
+    gap: 3vw;
+    margin-right: 3vh;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 3vh;
+      transition: all 0.4s;
+
+      &:hover {
+        color: #9F22B3;
+        text-shadow: 0 0 2vh black;
+      }
+    }
+  }
+}
+
+
+
+
+
+footer {
+  font-family: $fontTitle;
+  text-shadow: 0 0 1vh black;
+  bottom: 0;
+  width: 100%;
+  height: 35%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(10px) saturate(150%);
+  background-color: #131315C4;
+  color: white;
+  box-shadow: 0 0 6vh black;
+  h2 {
+    font-size: 6vh;
+    margin: 4vh;
+    -webkit-filter: drop-shadow(0 0 1vh #7A7A7A);
+    filter: drop-shadow(0 0 1vh #7A7A7A);
+  }
+  
+  .links {
+    margin: 4vh;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vh;
+
+    a:visited {
+    color: #CB76FF;
+}
+
+    span {
+      text-decoration: underline;
+      color: #CB76FF;
+
+    }
+
+  }
+
+  img {
+    filter: invert(100%) brightness(10000%);
+    width: 5vh;
+  }
+
+  .wdpLogo {
+    filter: none;
+    transform: translateY(0.4vh);
+  }
+
+  .copy {
+    display: grid;
+    grid-row: 2 2;
+    text-align: center;
+    bottom: 0vh;
+    color: #FF7373;
+
+    #copyright {
+      text-decoration: none;
+      color: #FF7373;
+    }
+
+  }
+}
+
+
+
+#staffMembers {
+  color: white;
+  display: flex;
+  flex-direction: column; // 🌟 stack items vertically
+  align-items: center;     // 🌟 center horizontally
+  gap: 3vh;
+  padding: 5vh 0;
+}
+
+
+.staff {
+  text-align: center;
+  font-family: $fontOther;
+  background: #0E0E10;
+  color: white;
+  padding: 3em;
+  margin: 2vh 0;
+  width: 50vh; // or whatever width feels right for your vibe
+  border-radius: 3vh;
+  box-shadow: 0 0 2vh rgba(0, 0, 0, 0.49);
+
+  img {
+    height: 10vh;
+    width: 10vh;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1vh;
+  }
+}
+
+
+
+@media only screen and (min-width: 600px) {
+.staff {
+  width: 20%;
+}
+}

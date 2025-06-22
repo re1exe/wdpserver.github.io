@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "WDP",
+    "Discord": "wdp0638",
+    "Description": "An owner and a founder of the server",
+    "Socials": "",
+    "Profile": "Images/decad9a82c9d2980b1f8ebf28da248a3.png",
+    "Role": "<span class='owner'>Owner</span>"
+  },
+  {
+    "Name": "Re1",
+    "Discord": "@re1exe",
+    "Description": "A developer and co-owner of the server. Programmer, artist, designer and photographer.",
+    "Socials": "",
+    "Profile": "Images/c5f6bbcd355e199607f45867c4514540.png",
+    "Role": "<span class='owner'>Co-Owner</span> <span class='developer'>Developer</span>"
+  }
+]
