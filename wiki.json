@@ -34,7 +34,7 @@
     {
         "wikiName": "Check Lifesteal Hearts",
         "wikiDescription": "View how many extra hearts you have gained or lost with the Lifesteal system.",
-        "wikiCommand": "/lifesteal:hearts",
+        "wikiCommand": "/hearts",
         "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": "Commands"
