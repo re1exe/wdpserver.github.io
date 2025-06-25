@@ -8,7 +8,7 @@
         "wikiCategory": "Commands"
     },
     {
-        "wikiName": "Home System",
+        "wikiName": "Home System (discord link required)",
         "wikiDescription": "Use /sethome to mark your base or safe zone. Return anytime using /home.",
         "wikiCommand": "/sethome, /home",
         "wikiLinks": "",
@@ -16,7 +16,7 @@
         "wikiCategory": "Commands"
     },
     {
-        "wikiName": "Teleport to Friends",
+        "wikiName": "Teleport to Friends (discord link required)",
         "wikiDescription": "Send and accept teleport requests using /tpa and /tpaccept to quickly travel to other players.",
         "wikiCommand": "/tpa, /tpaccept",
         "wikiLinks": "",
