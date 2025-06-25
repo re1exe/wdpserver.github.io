@@ -1,0 +1,66 @@
+[
+    {
+        "wikiName": "Spawn Command",
+        "wikiDescription": "Teleports you instantly to the spawn area. Great for regrouping or escaping threats.",
+        "wikiCommand": "/spawn",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": ""
+    },
+    {
+        "wikiName": "Home System",
+        "wikiDescription": "Use /sethome to mark your base or safe zone. Return anytime using /home.",
+        "wikiCommand": "/sethome, /home",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": ""
+    },
+    {
+        "wikiName": "Teleport to Friends",
+        "wikiDescription": "Send and accept teleport requests using /tpa and /tpaccept to quickly travel to other players.",
+        "wikiCommand": "/tpa, /tpaccept",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": ""
+    },
+    {
+        "wikiName": "Private Messaging",
+        "wikiDescription": "Privately message other players using /msg. Only you and the recipient will see the message.",
+        "wikiCommand": "/msg <player> <message>",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": ""
+    },
+    {
+        "wikiName": "Check Lifesteal Hearts",
+        "wikiDescription": "View how many extra hearts you have gained or lost with the Lifesteal system.",
+        "wikiCommand": "/lifesteal:hearts",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": ""
+    },
+    {
+        "wikiName": "Return to Previous Location",
+        "wikiDescription": "Teleports you to your last location after teleporting or death (if allowed on the server).",
+        "wikiCommand": "/back",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": ""
+    },
+    {
+        "wikiName": "Send Money",
+        "wikiDescription": "Transfer money to another player for trading or helping friends.",
+        "wikiCommand": "/pay <player> <amount>",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": ""
+    },
+    {
+        "wikiName": "Link Discord Account",
+        "wikiDescription": "Links your Minecraft and Discord accounts using DiscordSRV. Grants synced roles and chat integration. Use the code in the #link channel on Discord.",
+        "wikiCommand": "/discord link",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": ""
+    }
+]
