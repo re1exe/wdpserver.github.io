@@ -46,7 +46,7 @@
 .navbar .menu {
   font-family: "Jersey 25", sans-serif;
   display: flex;
-  gap: 3vw;
+  gap: 2vw;
   margin-right: 3vh;
 }
 .navbar .menu a {
@@ -149,5 +149,78 @@ footer .copy #copyright {
 @media only screen and (min-width: 600px) {
   .staff {
     width: 20%;
+  }
+}
+.tooltip {
+  color: white;
+}
+.tooltip p {
+  text-decoration: underline;
+}
+.tooltip .tooltipcontent {
+  display: none;
+}
+
+.tooltip .tooltipcontent {
+  visibility: hidden;
+  display: block;
+  font-size: 2vh;
+  background-color: #1B1C1F;
+}
+
+.tooltip .tooltipcontent {
+  position: absolute;
+  z-index: 1;
+  transition: 0.5 ease-in-out all;
+}
+
+.tooltip:hover .tooltipcontent {
+  visibility: visible;
+}
+
+.menu {
+  display: flex;
+  gap: 2vw;
+  margin-right: 4vh;
+}
+.menu .tooltip {
+  color: #fff;
+  border-bottom: 0.2vh white solid;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.menu .tooltip:hover {
+  color: #9F22B3;
+  text-shadow: 0.7vh 0.7vh 0vh black;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1517px) {
+  #staffMembers {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    padding: 5vh 0;
+  }
+  .staff {
+    text-align: center;
+    font-family: "Jersey 25", sans-serif;
+    background: #0E0E10;
+    color: white;
+    padding: 3em;
+    margin: 2vh 0;
+    width: 30vh;
+    border-radius: 3vh;
+    box-shadow: 0 0 2vh rgba(0, 0, 0, 0.49);
+  }
+  .staff img {
+    height: 10vh;
+    width: 10vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1vh;
   }
 }/*# sourceMappingURL=staff.css.map */
