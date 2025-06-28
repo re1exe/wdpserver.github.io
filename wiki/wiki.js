@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 out += `
                     <div class="wiki">
                         <h4 class="search-item">${wiki.wikiName}</h4>
-                        <p><code>${wiki.wikiCommand}</code></p>
-                        <p>${wiki.wikiDescription}</p>
+                        <p><code class="search-item">${wiki.wikiCommand}</code></p>
+                        <p class="search-item">${wiki.wikiDescription}</p>
                         
                         ${wiki.wikiImages ? `<img src="${wiki.wikiImages}" alt="${wiki.wikiName}">` : ''}
                         <span class="tag">${wiki.wikiCategory}</span>
@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             placeholder.innerHTML = out;
 
-            // 🧠 Now that it's rendered, hook up the search
             const searchBox = document.getElementById('searchBox');
             const items = document.querySelectorAll('.search-item');
 

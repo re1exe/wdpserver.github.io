@@ -31,7 +31,7 @@ html, body {
 }
 .navbar .menu {
   display: flex;
-  gap: 3vw;
+  gap: 2vw;
   margin-right: 3vh;
 }
 .navbar .menu a {
@@ -47,7 +47,6 @@ html, body {
 
 #wikiContent {
   color: white;
-  height: 160%;
   background-color: #1B1C1F;
   padding-top: 8vh;
   padding-left: 3vh;
@@ -128,7 +127,6 @@ footer .copy #copyright {
   color: #FF7373;
 }
 
-/* From Uiverse.io by alexruix */
 .group {
   display: flex;
   line-height: 28px;
@@ -180,4 +178,48 @@ input {
 
 hr {
   color: #CB76FF;
+}
+
+.tooltip {
+  color: white;
+}
+.tooltip p {
+  text-decoration: underline;
+}
+.tooltip .tooltipcontent {
+  display: none;
+}
+
+.tooltip .tooltipcontent {
+  visibility: hidden;
+  display: block;
+  font-size: 2vh;
+  background-color: #1B1C1F;
+}
+
+.tooltip .tooltipcontent {
+  position: absolute;
+  z-index: 1;
+  transition: 0.5 ease-in-out all;
+}
+
+.tooltip:hover .tooltipcontent {
+  visibility: visible;
+}
+
+.menu {
+  display: flex;
+  gap: 2vw;
+  margin-right: 4vh;
+}
+.menu .tooltip {
+  color: #fff;
+  border-bottom: 0.2vh white solid;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.menu .tooltip:hover {
+  color: #9F22B3;
+  text-shadow: 0.7vh 0.7vh 0vh black;
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
