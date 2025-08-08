@@ -32,14 +32,6 @@
         "wikiCategory": ""
     },
     {
-        "wikiName": "Check Lifesteal Hearts",
-        "wikiDescription": "View how many extra hearts you have gained or lost with the Lifesteal system.",
-        "wikiCommand": "/lifesteal:hearts",
-        "wikiLinks": "",
-        "wikiImages": "",
-        "wikiCategory": ""
-    },
-    {
         "wikiName": "Return to Previous Location",
         "wikiDescription": "Teleports you to your last location after teleporting or death (if allowed on the server).",
         "wikiCommand": "/back",
