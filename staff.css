@@ -23,6 +23,17 @@
   border-radius: 1vh;
 }
 
+.moderator {
+  padding-bottom: 0.7vh;
+  padding-top: 0.7vh;
+  padding-left: 0.7vh;
+  padding-right: 0.7vh;
+  text-align: center;
+  background-color: rgba(243, 247, 20, 0.6);
+  text-shadow: 0 0 0.8vh black;
+  border-radius: 1vh;
+}
+
 .navbar {
   text-shadow: 0 0 1vh black;
   position: sticky;

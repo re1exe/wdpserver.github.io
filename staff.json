@@ -12,7 +12,15 @@
     "Discord": "@re1exe",
     "Description": "A developer and co-owner of the server. Programmer, artist, designer and photographer.",
     "Socials": "",
-    "Profile": "Images/c5f6bbcd355e199607f45867c4514540.png",
+    "Profile": "Images/c5f2ea10a1658afe3c32d545354b309b.png",
     "Role": "<span class='owner'>Co-Owner</span> <span class='developer'>Developer</span>"
+  },
+    {
+    "Name": "Will",
+    "Discord": "@willstuff1111",
+    "Description": "Discord and minecraft server moderator",
+    "Socials": "",
+    "Profile": "Images/willstuff.png",
+    "Role": "<span class='moderator'>Moderator</span>"
   }
 ]
