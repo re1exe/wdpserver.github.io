@@ -234,4 +234,38 @@ footer .copy #copyright {
     border-radius: 50%;
     margin-bottom: 1vh;
   }
+}
+.tooltip2 {
+  cursor: pointer;
+  color: white;
+}
+.tooltip2 p {
+  text-decoration: underline;
+}
+.tooltip2 .tooltipcontent2 {
+  display: none;
+}
+
+.tooltip2 .tooltipcontent2 {
+  visibility: hidden;
+  display: block;
+  font-size: 2vh;
+  background-color: #1B1C1F;
+}
+
+.tooltip2 .tooltipcontent2 {
+  position: absolute;
+  z-index: 1;
+  transition: 0.5 ease-in-out all;
+}
+
+.tooltip2:hover .tooltipcontent2 {
+  visibility: visible;
+}
+
+.tooltip2 {
+  color: #fff;
+  border-bottom: 0.2vh white solid;
+  transition: all 0.4s;
+  cursor: pointer;
 }/*# sourceMappingURL=staff.css.map */

@@ -12,15 +12,6 @@
 
 ---
 
-## 💀 Lifesteal Mechanics
-
-- Kill a player ➜ steal **1 heart**  
-- Lose all your hearts ➜ you’re **banned for 1 hour**  
-- You can earn hearts back by killing or through events  
-- **Max hearts:** 20
-
----
-
 ## 💬 Discord
 
 Join our Discord server for:
