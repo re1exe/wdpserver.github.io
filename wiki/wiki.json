@@ -54,5 +54,13 @@
         "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": ""
+    },
+    {
+        "wikiName": "Skills System",
+        "wikiDescription": "With ValhallaMMO, you gain access to a deep RPG skill system on the server. You can level up skills like Mining, Combat, Farming, Woodcutting, Fishing, and more by performing related actions. Every time you level up one of these skills, your overall power level increases. Each time your power level goes up, you earn a skill point. These skill points can be spent to unlock abilities within the skill trees, allowing you to customize your strengths and unlock powerful upgrades. The skills menu is designed as a wheel, where the selected skill moves to the center, and other skills remain visible around it. Use /skills to view your progress and /skill <name> to see details about each skill’s abilities, requirements, and skill tree.",
+        "wikiCommand": "/skills, /skill <name>",
+        "wikiLinks": "https://www.spigotmc.org/resources/valhallammo.94901/",
+        "wikiImages": "",
+        "wikiCategory": "ValhallaMMO"
     }
 ]
