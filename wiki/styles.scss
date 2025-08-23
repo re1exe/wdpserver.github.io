@@ -174,10 +174,11 @@ footer {
 
 .group {
  display: flex;
- line-height: 28px;
+ line-height: 2.8vh;
  align-items: center;
-position: relative;
- max-width: 190px;
+ position: relative;
+ max-width: 5vh;
+ transition: all 0.4s;
 }
 
 .input {
@@ -189,20 +190,22 @@ position: relative;
  border: 2px solid transparent;
  border-radius: 2vh;
  outline: none;
- background-color: #f3f3f4;
+ background-color: #FFCAFB86;
  color: #0d0c22;
- transition: .5s ;
+ transition: all 0.4s;
 }
 
 .input::placeholder {
- color: #9e9ea7;
+ color: #8E8EA6;
+ transition: all 0.4s;
 }
 
 .input:focus, input:hover {
  outline: none;
- border-color: rgba(250 134 178 / 0.64);
- background-color: #fff;
- box-shadow: 0 0 0 4px rgba(253 118 170 / 0.41);
+ border-color: #D42EE0D9;
+ background-color: #FFFFFF;
+ box-shadow: 0 0 2vh #D42EE0D9;
+ transition: all 0.4s;
 }
 
 .icon {
@@ -215,6 +218,7 @@ position:absolute;
 input {
   border-radius: 2vh;
   border: none;
+  transition: all 0.4s;
 }
 
 hr {

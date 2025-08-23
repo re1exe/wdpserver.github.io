@@ -3,62 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>WDP | Wiki</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/wiki/styles.css">
   <link rel="shortcut icon" href="/Icons/WDP_logo.png" type="image/png">
-
 
 </head>
 
+<style> html { background-color: #1B1C1F; } </style>
+
 <body>
 
-<style>
-html {
-  background-color: #1B1C1F;
-}
-</style>
+  <div class="navbar">
+    <div class="logo"><img src="/Icons/WDP_logo.png" alt="WDP"></div>
 
+    <input type="text" id="searchBox" placeholder="Search wiki content..." />
 
-<div class="navbar">
-  <div class="logo"><img src="/Icons/WDP_logo.png" alt="WDP"></div>
-  <div class="menu">
-     <a href="/">Home</a>
-         <div class="tooltip">
-      <a>Info</a>
-      <div class="tooltipcontent">
-        <a href="/staff.html">Staff</a> <br>
-        <a href="/youtube-rank-requirements.html" style="color: red;">YouTuber</a> <br>
-        <a href="/wiki/">Wiki</a>
+    <div class="menu">
+      <a href="/">Home</a>
+
+      <div class="tooltip">
+        <a>Info</a>
+        <div class="tooltipcontent">
+          <a href="/staff.html">Staff</a> <br>
+          <a href="/youtube-rank-requirements.html" style="color: red;">YouTuber</a> <br>
+          <a href="/wiki/">Wiki</a>
+        </div>
       </div>
+
+      <div class="tooltip2">
+        <a>Utilities</a>
+        <div class="tooltipcontent2">
+          <a href="/staffapp.html">Staff App</a>
+        </div>
+      </div>
+    </div>
   </div>
 
-
-    <div class="tooltip2">
-      <a>Utitlies</a>
-      <div class="tooltipcontent2">
-        <a href="/staffapp.html">Staf App</a>
-      </div>
-  </div> <br> <br>
-
-</div>
-</div>
-
-    <main id="wikiContent">
-       <input type="text" id="searchBox" placeholder="   Search wiki content..." />
-      <!-- Here Goes The wiki.json Fetch -->
-    </main>
-  </div>
-
-
+  <main>
+    <div id="wikiContent">
+      <!-- wiki.json content will be injected here -->
+    </div>
+  </main>
 
   <footer>
-
-<h2><img src="/Icons/WDP_logo.png" class="wdpLogo" alt="WDP">WDP</h2>
-<a target="_blank" href="https://re1exe.github.io/">Made by <span>Re1.exe</span></a>
-<div class="links">
-  <img src="/Icons/discord.svg" alt="Discord"  onclick="redirectTo('https://discord.gg/QuTVx7dTWS')">
-</div>
-
-</footer>
+    <h2><img src="/Icons/WDP_logo.png" class="wdpLogo" alt="WDP"> WDP</h2>
+    <a target="_blank" href="https://re1exe.github.io/">Made by <span>Re1.exe</span></a>
+    <div class="links">
+      <img src="/Icons/discord.svg" alt="Discord" onclick="redirectTo('https://discord.gg/QuTVx7dTWS')">
+    </div>
+  </footer>
 
   <script src="wiki.js"></script>
 </body>

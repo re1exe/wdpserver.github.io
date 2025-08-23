@@ -129,10 +129,11 @@ footer .copy #copyright {
 
 .group {
   display: flex;
-  line-height: 28px;
+  line-height: 2.8vh;
   align-items: center;
   position: relative;
-  max-width: 190px;
+  max-width: 5vh;
+  transition: all 0.4s;
 }
 
 .input {
@@ -144,24 +145,28 @@ footer .copy #copyright {
   border: 2px solid transparent;
   border-radius: 2vh;
   outline: none;
-  background-color: #f3f3f4;
+  background-color: rgba(255, 202, 251, 0.5254901961);
   color: #0d0c22;
-  transition: 0.5s;
+  transition: all 0.4s;
 }
 
 .input::-moz-placeholder {
-  color: #9e9ea7;
+  color: #8E8EA6;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .input::placeholder {
-  color: #9e9ea7;
+  color: #8E8EA6;
+  transition: all 0.4s;
 }
 
 .input:focus, input:hover {
   outline: none;
-  border-color: rgba(250, 134, 178, 0.64);
-  background-color: #fff;
-  box-shadow: 0 0 0 4px rgba(253, 118, 170, 0.41);
+  border-color: rgba(212, 46, 224, 0.8509803922);
+  background-color: #FFFFFF;
+  box-shadow: 0 0 2vh rgba(212, 46, 224, 0.8509803922);
+  transition: all 0.4s;
 }
 
 .icon {
@@ -174,6 +179,7 @@ footer .copy #copyright {
 input {
   border-radius: 2vh;
   border: none;
+  transition: all 0.4s;
 }
 
 hr {

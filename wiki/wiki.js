@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const placeholder = document.getElementById("wikiContent");
             let out = "";
 
-            for (let wiki of wikiJson.slice(0, 6)) {
+            // 🔥 removed slice(0, 6) so ALL entries display
+            for (let wiki of wikiJson) {
                 out += `
                     <div class="wiki">
                         <h4 class="search-item">${wiki.wikiName}</h4>
