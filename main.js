@@ -67,29 +67,6 @@ fetch(`https://discord.com/api/v9/invites/${INVITE_CODE}?with_counts=true`)
 
 
 
-
-fetch("projects.json")
-    .then(response => response.json())
-    .then(projects => {
-        let placeholder = document.getElementById("wikiContent");
-        let out = "";
-
-        for (let project of projects.slice(0, 6)) {
-            out += `
-                <div class="wiki">
-                    <h4>${project.name}</h4>
-                    <p>${project.description}</p>
-                    <img src="${project.image}" alt="${project.name}">
-                    <br>
-                </div>
-            `;
-        }
-
-        placeholder.innerHTML = out;
-    })
-    .catch(error => console.error("Error fetching wiki content", error));
-
-
     document.addEventListener("DOMContentLoaded", () => {
   fetch("staff.json")
     .then(response => response.json())
