@@ -47,3 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error("❌ Error fetching wiki content:", error));
 });
+
+
+const Year = new Date().getFullYear()
+
+document.getElementById("copyright").innerHTML = Year + "©️";
