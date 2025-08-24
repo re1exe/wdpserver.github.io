@@ -96,4 +96,4 @@ fetch(`https://discord.com/api/v9/invites/${INVITE_CODE}?with_counts=true`)
 
 const Year = new Date().getFullYear()
 
-document.getElementById("copyright").innerHTML = Year;
+document.getElementById("copyright").innerHTML = Year + "©️";

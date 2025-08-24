@@ -54,7 +54,7 @@ BUT, they need to speak **english**
 
 ## 🔧 Contact
 
-- **Discord (Owner):** `wdp0638` `support@wdpserver.com`
+- **Discord (Owner):** `wdp0638` 
 - **Email (Developer, Co-Owner):** `rei.exe@hotmail.com` `Discord: re1exe`
 - Or reach out via the WDP Discord server.
 
