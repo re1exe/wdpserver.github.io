@@ -5,15 +5,15 @@
         "wikiCommand": "/spawn",
         "wikiLinks": "",
         "wikiImages": "",
-        "wikiCategory": ""
+        "wikiCategory": "Utility"
     },
     {
         "wikiName": "Home System",
-        "wikiDescription": "Use /sethome to mark your base or safe zone. Return anytime using /home.",
+        "wikiDescription": "Use /sethome to mark your base or safe zone. Return anytime using /home. (Only avaiable for Linked discord users)",
         "wikiCommand": "/sethome, /home",
         "wikiLinks": "",
         "wikiImages": "",
-        "wikiCategory": ""
+        "wikiCategory": "Utility"
     },
     {
         "wikiName": "Teleport to Friends",
@@ -21,7 +21,7 @@
         "wikiCommand": "/tpa, /tpaccept",
         "wikiLinks": "",
         "wikiImages": "",
-        "wikiCategory": ""
+        "wikiCategory": "Utility"
     },
     {
         "wikiName": "Private Messaging",
@@ -29,7 +29,7 @@
         "wikiCommand": "/msg <player> <message>",
         "wikiLinks": "",
         "wikiImages": "",
-        "wikiCategory": ""
+        "wikiCategory": "Utility"
     },
     {
         "wikiName": "Return to Previous Location",
@@ -37,7 +37,7 @@
         "wikiCommand": "/back",
         "wikiLinks": "",
         "wikiImages": "",
-        "wikiCategory": ""
+        "wikiCategory": "Utility"
     },
     {
         "wikiName": "Send Money",
@@ -45,7 +45,7 @@
         "wikiCommand": "/pay <player> <amount>",
         "wikiLinks": "",
         "wikiImages": "",
-        "wikiCategory": ""
+        "wikiCategory": "Economy"
     },
     {
         "wikiName": "Link Discord Account",
@@ -53,7 +53,7 @@
         "wikiCommand": "/discord link",
         "wikiLinks": "",
         "wikiImages": "",
-        "wikiCategory": ""
+        "wikiCategory": "Utility"
     },
     {
         "wikiName": "Skills System",
@@ -69,6 +69,6 @@
         "wikiCommand": "/hint",
         "wikiLinks": "",
         "wikiImages": "",
-        "wikiCategory": ""
+        "wikiCategory": "Mechanics"
     }
 ]
