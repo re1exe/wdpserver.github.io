@@ -1,7 +1,7 @@
 [
     {
         "wikiName": "Spawn Command",
-        "wikiDescription": "Use <b>/spawn</b> to instantly teleport to the server's spawn area.\nGreat for regrouping with friends or escaping dangerous situations quickly.",
+        "wikiDescription": "Use <b>/spawn</b> to instantly teleport to the server's spawn area.<br>Great for regrouping with friends or escaping dangerous situations quickly.",
         "wikiCommand": "/spawn",
         "wikiLinks": "",
         "wikiImages": "",
@@ -9,7 +9,7 @@
     },
     {
         "wikiName": "Home System",
-        "wikiDescription": "Mark your base or safe zone with <b>/sethome</b>.\nReturn anytime using <b>/home</b>.\nExclusive to players with linked Discord accounts.",
+        "wikiDescription": "Mark your base or safe zone with <b>/sethome</b>.<br>Return anytime using <b>/home</b>.<br>Exclusive to players with linked Discord accounts.",
         "wikiCommand": "/sethome, /home",
         "wikiLinks": "",
         "wikiImages": "",
@@ -17,7 +17,7 @@
     },
     {
         "wikiName": "Teleport to Friends",
-        "wikiDescription": "Send teleport requests with <b>/tpa</b>.\nAccept requests with <b>/tpaccept</b> to travel to other players.\nPerfect for teaming up or visiting friends.",
+        "wikiDescription": "Send teleport requests with <b>/tpa</b>.<br>Accept requests with <b>/tpaccept</b> to travel to other players.<br>Perfect for teaming up or visiting friends.",
         "wikiCommand": "/tpa, /tpaccept",
         "wikiLinks": "",
         "wikiImages": "",
@@ -25,7 +25,7 @@
     },
     {
         "wikiName": "Private Messaging",
-        "wikiDescription": "Send private messages to players using <b>/msg</b>.\nOnly you and the recipient see the conversation.\nEnsures secure communication.",
+        "wikiDescription": "Send private messages to players using <b>/msg</b>.<br>Only you and the recipient see the conversation.<br>Ensures secure communication.",
         "wikiCommand": "/msg <player> <message>",
         "wikiLinks": "",
         "wikiImages": "",
@@ -33,7 +33,7 @@
     },
     {
         "wikiName": "Return to Previous Location",
-        "wikiDescription": "Use <b>/back</b> to teleport to your last location after teleporting or dying (if permitted).\nIdeal for retracing your steps.",
+        "wikiDescription": "Use <b>/back</b> to teleport to your last location after teleporting or dying (if permitted).<br>Ideal for retracing your steps.",
         "wikiCommand": "/back",
         "wikiLinks": "",
         "wikiImages": "",
@@ -41,7 +41,7 @@
     },
     {
         "wikiName": "Send Money",
-        "wikiDescription": "Transfer money to another player with <b>/pay</b>.\nSupports trading or helping friends.\nPart of the server's economy system.",
+        "wikiDescription": "Transfer money to another player with <b>/pay</b>.<br>Supports trading or helping friends.<br>Part of the server's economy system.",
         "wikiCommand": "/pay <player> <amount>",
         "wikiLinks": "",
         "wikiImages": "",
@@ -49,7 +49,7 @@
     },
     {
         "wikiName": "Link Discord Account",
-        "wikiDescription": "Connect your Minecraft and Discord accounts via <b>/discord link</b>.\nUse the code from the #link channel on Discord.\nUnlocks synced roles and chat integration.",
+        "wikiDescription": "Connect your Minecraft and Discord accounts via <b>/discord link</b>.<br>Use the code from the #link channel on Discord.<br>Unlocks synced roles and chat integration.",
         "wikiCommand": "/discord link",
         "wikiLinks": "",
         "wikiImages": "",
@@ -57,7 +57,7 @@
     },
     {
         "wikiName": "AuraSkills System",
-        "wikiDescription": "<b>AuraSkills</b> offers a rich RPG skill system for Minecraft servers.\n\n- <b>Skills</b>: Level up 11 default skills like Mining, Combat, Farming, Woodcutting, Fishing, Enchanting, and more.\n- <b>XP Gain</b>: Earn skill XP by performing actions like breaking blocks, fighting mobs, or harvesting crops.\n- <b>XP Sources</b>: View XP sources for each skill using the XP bottle in the skill road GUI.\n- <b>Level Rewards</b>: Every level boosts stats (e.g., health, damage, luck) and unlocks up to 5 passive abilities at levels 1, 5, 10, 15, and 20.\n- <b>Abilities</b>: Passive abilities enhance gameplay, such as increased drop rates or faster resource gathering.\n- <b>Skill Points</b>: Earn points to unlock or upgrade abilities in customizable skill trees.\n- <b>Commands</b>: Use <b>/skills</b> to open the interactive GUI for progress, stats, and ability management.\n- Use <b>/skill <name></b> to view detailed info on a skill’s abilities, XP requirements, and upgrades.",
+        "wikiDescription": "<b style=\"color:#007BFF\">AuraSkills</b> offers a rich RPG skill system for Minecraft servers.<br><br>- <b style=\"color:#007BFF\">Skills</b>: Level up 11 default skills like Mining, Combat, Farming, Woodcutting, Fishing, Enchanting, and more.<br>- <b style=\"color:#007BFF\">XP Gain</b>: Earn skill XP by performing actions like breaking blocks, fighting mobs, or harvesting crops.<br>- <b style=\"color:#007BFF\">XP Sources</b>: View XP sources for each skill using the XP bottle in the skill road GUI.<br>- <b style=\"color:#007BFF\">Level Rewards</b>: Every level boosts stats (e.g., health, damage, luck) and unlocks up to 5 passive abilities at levels 1, 5, 10, 15, and 20.<br>- <b style=\"color:#007BFF\">Abilities</b>: Passive abilities enhance gameplay, such as increased drop rates or faster resource gathering.<br>- <b style=\"color:#007BFF\">Skill Points</b>: Earn points to unlock or upgrade abilities in customizable skill trees.<br>- <b style=\"color:#007BFF\">Commands</b>: Use <b>/skills</b> to open the interactive GUI for progress, stats, and ability management.<br>- Use <b>/skill <name></b> to view detailed info on a skill’s abilities, XP requirements, and upgrades.",
         "wikiCommand": "/skills, /skill <name>",
         "wikiLinks": "https://wiki.aurelium.dev/auraskills/",
         "wikiImages": "",
@@ -65,7 +65,7 @@
     },
     {
         "wikiName": "Rogue Wanderer",
-        "wikiDescription": "Hunt the <b>Rogue Wanderer</b>, a unique NPC.\nDefeat it three times to earn a Beam Stone.\nReceive a new hint after each defeat, updated daily at 15:00.\nCheck Discord for notifications.\nAdditional hints guide you as you get closer.",
+        "wikiDescription": "Hunt the <b>Rogue Wanderer</b>, a unique NPC.<br>Defeat it three times to earn a Beam Stone.<br>Receive a new hint after each defeat, updated daily at 15:00.<br>Check Discord for notifications.<br>Additional hints guide you as you get closer.",
         "wikiCommand": "/hint",
         "wikiLinks": "",
         "wikiImages": "",
