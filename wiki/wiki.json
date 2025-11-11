@@ -1,7 +1,7 @@
 [
     {
         "wikiName": "Spawn Command",
-        "wikiDescription": "Use <b style=\"color:#007BFF\">/spawn</b> to instantly <b style=\"color:#28A745\">teleport</b> to the server's <b style=\"color:#DC3545\">spawn area</b>.<br>Great for <b style=\"color:#28A745\">regrouping</b> with friends or <b style=\"color:#DC3545\">escaping</b> dangerous situations quickly.",
+        "wikiDescription": "Teleports you instantly to the spawn area. Great for regrouping or escaping threats.",
         "wikiCommand": "/spawn",
         "wikiLinks": "",
         "wikiImages": "",
@@ -9,7 +9,7 @@
     },
     {
         "wikiName": "Home System",
-        "wikiDescription": "Mark your <b style=\"color:#28A745\">base</b> or <b style=\"color:#28A745\">safe zone</b> with <b style=\"color:#007BFF\">/sethome</b>.<br>Return anytime using <b style=\"color:#007BFF\">/home</b>.<br>Exclusive to players with <b style=\"color:#DC3545\">linked Discord accounts</b>.",
+        "wikiDescription": "Use /sethome to mark your base or safe zone. Return anytime using /home. (Only avaiable for Linked discord users)",
         "wikiCommand": "/sethome, /home",
         "wikiLinks": "",
         "wikiImages": "",
@@ -17,7 +17,7 @@
     },
     {
         "wikiName": "Teleport to Friends",
-        "wikiDescription": "Send <b style=\"color:#28A745\">teleport requests</b> with <b style=\"color:#007BFF\">/tpa</b>.<br>Accept requests with <b style=\"color:#007BFF\">/tpaccept</b> to <b style=\"color:#DC3545\">travel</b> to other players.<br>Perfect for <b style=\"color:#28A745\">teaming up</b> or visiting friends.",
+        "wikiDescription": "Send and accept teleport requests using /tpa and /tpaccept to quickly travel to other players.",
         "wikiCommand": "/tpa, /tpaccept",
         "wikiLinks": "",
         "wikiImages": "",
@@ -25,7 +25,7 @@
     },
     {
         "wikiName": "Private Messaging",
-        "wikiDescription": "Send <b style=\"color:#28A745\">private messages</b> to players using <b style=\"color:#007BFF\">/msg</b>.<br>Only you and the <b style=\"color:#DC3545\">recipient</b> see the conversation.<br>Ensures <b style=\"color:#28A745\">secure communication</b>.",
+        "wikiDescription": "Privately message other players using /msg. Only you and the recipient will see the message.",
         "wikiCommand": "/msg <player> <message>",
         "wikiLinks": "",
         "wikiImages": "",
@@ -33,7 +33,7 @@
     },
     {
         "wikiName": "Return to Previous Location",
-        "wikiDescription": "Use <b style=\"color:#007BFF\">/back</b> to <b style=\"color:#28A745\">teleport</b> to your <b style=\"color:#DC3545\">previous location</b> (if permitted).<br>For example, teleporting from <b style=\"color:#28A745\">home</b> to <b style=\"color:#DC3545\">spawn</b> and using <b style=\"color:#007BFF\">/back</b> returns you to <b style=\"color:#28A745\">home</b>.<br>Using <b style=\"color:#007BFF\">/back</b> again may return you to <b style=\"color:#DC3545\">spawn</b>.",
+        "wikiDescription": "Teleports you to your last location after teleporting or death (if allowed on the server).",
         "wikiCommand": "/back",
         "wikiLinks": "",
         "wikiImages": "",
@@ -41,7 +41,7 @@
     },
     {
         "wikiName": "Send Money",
-        "wikiDescription": "<b style=\"color:#28A745\">Transfer money</b> to another player with <b style=\"color:#007BFF\">/pay</b>.<br>Supports <b style=\"color:#DC3545\">trading</b> or <b style=\"color:#28A745\">helping friends</b>.<br>Part of the server's <b style=\"color:#DC3545\">economy system</b>.",
+        "wikiDescription": "Transfer money to another player for trading or helping friends.",
         "wikiCommand": "/pay <player> <amount>",
         "wikiLinks": "",
         "wikiImages": "",
@@ -49,23 +49,23 @@
     },
     {
         "wikiName": "Link Discord Account",
-        "wikiDescription": "Use <b style=\"color:#007BFF\">/discord link</b> in Minecraft to generate a code.<br>Enter the code in the <a href=\"https://discord.com/channels/1375855938468057128/1377998030384660580\" target=\"_blank\" style=\"color:#007BFF; text-decoration:underline;\">#linking channel</a> to connect your <b style=\"color:#DC3545\">Minecraft</b> and <b style=\"color:#DC3545\">Discord accounts</b>.<br>Unlocks <b style=\"color:#28A745\">synced roles</b> and <b style=\"color:#28A745\">chat integration</b>.",
+        "wikiDescription": "Links your Minecraft and Discord accounts using DiscordSRV. Grants synced roles and chat integration. Use the code in the #link channel on Discord.",
         "wikiCommand": "/discord link",
         "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": "Utility"
     },
     {
-        "wikiName": "AuraSkills System",
-        "wikiDescription": "<b style=\"color:#007BFF\">AuraSkills</b> offers a rich <b style=\"color:#28A745\">RPG skill system</b> for Minecraft servers.<br><br>- <b style=\"color:#007BFF\">Skills</b>: Level up 11 default skills like <b style=\"color:#DC3545\">Mining</b>, <b style=\"color:#DC3545\">Combat</b>, <b style=\"color:#DC3545\">Farming</b>, <b style=\"color:#DC3545\">Woodcutting</b>, <b style=\"color:#DC3545\">Fishing</b>, <b style=\"color:#DC3545\">Enchanting</b>, and more.<br>- <b style=\"color:#007BFF\">XP Gain</b>: Earn <b style=\"color:#28A745\">skill XP</b> by performing actions like breaking blocks, fighting mobs, or harvesting crops.<br>- <b style=\"color:#007BFF\">XP Sources</b>: View XP sources for each skill using the <b style=\"color:#28A745\">XP bottle</b> in the skill road <b style=\"color:#28A745\">GUI</b>.<br>- <b style=\"color:#007BFF\">Level Rewards</b>: Every level boosts stats (e.g., <b style=\"color:#DC3545\">health</b>, <b style=\"color:#DC3545\">damage</b>, <b style=\"color:#DC3545\">luck</b>) and unlocks up to <b style=\"color:#28A745\">5 passive abilities</b> at levels 1, 5, 10, 15, and 20.<br>- <b style=\"color:#007BFF\">Abilities</b>: Passive abilities enhance gameplay, such as <b style=\"color:#28A745\">increased drop rates</b> or <b style=\"color:#28A745\">faster resource gathering</b>.<br>- <b style=\"color:#007BFF\">Skill Points</b>: Earn points to unlock or upgrade abilities in customizable <b style=\"color:#28A745\">skill trees</b>.<br>- <b style=\"color:#007BFF\">Commands</b>: Use <b style=\"color:#007BFF\">/skills</b> to open the interactive <b style=\"color:#28A745\">GUI</b> for progress, stats, and ability management.<br>- Use <b style=\"color:#007BFF\">/skill <name></b> to view detailed info on a skill's abilities, XP requirements, and upgrades.",
+        "wikiName": "Skills System",
+        "wikiDescription": "With ValhallaMMO, you gain access to a deep RPG skill system on the server. You can level up skills like Mining, Combat, Farming, Woodcutting, Fishing, and more by performing related actions. Every time you level up one of these skills, your overall power level increases. Each time your power level goes up, you earn a skill point. These skill points can be spent to unlock abilities within the skill trees, allowing you to customize your strengths and unlock powerful upgrades. The skills menu is designed as a wheel, where the selected skill moves to the center, and other skills remain visible around it. Use /skills to view your progress and /skill <name> to see details about each skill’s abilities, requirements, and skill tree.",
         "wikiCommand": "/skills, /skill <name>",
-        "wikiLinks": "https://wiki.aurelium.dev/auraskills/",
+        "wikiLinks": "https://github.com/Athlaeos/ValhallaMMO/wiki",
         "wikiImages": "",
         "wikiCategory": "Mechanics"
     },
     {
         "wikiName": "Rogue Wanderer",
-        "wikiDescription": "Hunt the <b style=\"color:#DC3545\">Rogue Wanderer</b>, a unique <b style=\"color:#DC3545\">NPC</b>.<br>Defeat it <b style=\"color:#28A745\">three times</b> to earn a <b style=\"color:#28A745\">Beam Stone</b>.<br>Receive a new <b style=\"color:#28A745\">hint</b> after each defeat, updated daily at <b style=\"color:#007BFF\">15:00</b>.<br>Check <a href=\"https://discord.com/channels/1375855938468057128/1377998030384660580\" target=\"_blank\" style=\"color:#007BFF; text-decoration:underline;\">Discord</a> for notifications.<br>Additional <b style=\"color:#28A745\">hints</b> guide you as you get closer.",
+        "wikiDescription": "The Rogue Wanderer is a unique NPC that everyone hunts. Defeat it three times to earn a Beam Stone. You receive a new hint every time you defeat it, and hints are updated daily at 15:00. Check the Discord for notifications. As you get closer to the Rogue Wanderer, you will receive additional hints to aid your hunt.",
         "wikiCommand": "/hint",
         "wikiLinks": "",
         "wikiImages": "",
