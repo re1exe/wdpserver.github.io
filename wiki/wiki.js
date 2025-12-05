@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const placeholder = document.getElementById("wikiContent");
             let out = "";
 
-            // 🔥 removed slice(0, 6) so ALL entries display
+            // removed slice(0, 6) so ALL entries display
             for (let wiki of wikiJson) {
                 out += `
                     <div class="wiki">
