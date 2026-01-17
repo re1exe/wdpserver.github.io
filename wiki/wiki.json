@@ -1,74 +1,130 @@
 [
     {
-        "wikiName": "Spawn Command",
-        "wikiDescription": "Teleports you instantly to the spawn area. Great for regrouping or escaping threats.",
-        "wikiCommand": "/spawn",
+        "wikiName": "<span style='color:#C7A8F2;'>Spawn Command</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Instantly teleports you to the server's spawn, a safe and central area. This is useful for meeting up with other players, accessing server-wide amenities, or making a quick escape from danger.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/spawn</span>",
         "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": "Utility"
     },
     {
-        "wikiName": "Home System",
-        "wikiDescription": "Use /sethome to mark your base or safe zone. Return anytime using /home. (Only avaiable for Linked discord users)",
-        "wikiCommand": "/sethome, /home",
+        "wikiName": "<span style='color:#C7A8F2;'>Automatic Base System</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Instead of manually claiming land, the server intelligently learns where your base is by tracking activities like placing valuable blocks, using a bed, or placing containers. Once your 'base score' is high enough, a protected area is automatically established. This protection prevents griefing and theft <span style='color:#82DDF0;'>while you are offline</span>. Use <span style='color:#F2DDA4;'>/base</span> to teleport to your primary base area, <span style='color:#F2DDA4;'>/base sethome</span> to choose the exact teleport spot within your base, and <span style='color:#F2DDA4;'>/trust [player]</span> to grant friends access.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/base, /base sethome, /trust</span>",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": "Mechanics"
+    },
+    {
+        "wikiName": "<span style='color:#C7A8F2;'>Simple Home System</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Set a single, personal teleport point anywhere in the world. This is perfect for a small outpost, a favorite mining spot, or a temporary shelter. Unlike the area-based <span style='color:#F2DDA4;'>/base</span> command, <span style='color:#F2DDA4;'>/sethome</span> marks just one block. Use <span style='color:#F2DDA4;'>/home</span> to return to it. (This feature may require a linked Discord account).</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/sethome, /home</span>",
         "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": "Utility"
     },
     {
-        "wikiName": "Teleport to Friends",
-        "wikiDescription": "Send and accept teleport requests using /tpa and /tpaccept to quickly travel to other players.",
-        "wikiCommand": "/tpa, /tpaccept",
+        "wikiName": "<span style='color:#C7A8F2;'>Random Teleport</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Feeling adventurous? Use this command to be instantly transported to a random, unclaimed location in the wilderness. It's the perfect way to find a fresh area to start your base or to discover new biomes and structures far from spawn.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/rtp</span> or <span style='color:#F2DDA4;'>/wild</span>",
         "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": "Utility"
     },
     {
-        "wikiName": "Private Messaging",
-        "wikiDescription": "Privately message other players using /msg. Only you and the recipient will see the message.",
-        "wikiCommand": "/msg <player> <message>",
+        "wikiName": "<span style='color:#C7A8F2;'>Teleport to Friends</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Quickly team up with friends using teleport requests. Use <span style='color:#F2DDA4;'>/tpa [player]</span> to ask to teleport to them. They will receive a request they can accept with <span style='color:#F2DDA4;'>/tpaccept</span> or deny with <span style='color:#F2DDA4;'>/tpdeny</span>. Be aware that requests usually expire after a short time.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/tpa, /tpaccept, /tpdeny</span>",
         "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": "Utility"
     },
     {
-        "wikiName": "Return to Previous Location",
-        "wikiDescription": "Teleports you to your last location after teleporting or death (if allowed on the server).",
-        "wikiCommand": "/back",
+        "wikiName": "<span style='color:#C7A8F2;'>Return to Previous Location</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Made a teleport you regret? Or maybe you died and want to get back to your items quickly? This command teleports you to your location prior to your last teleport or death, giving you a second chance.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/back</span>",
         "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": "Utility"
     },
     {
-        "wikiName": "Send Money",
-        "wikiDescription": "Transfer money to another player for trading or helping friends.",
-        "wikiCommand": "/pay <player> <amount>",
+        "wikiName": "<span style='color:#C7A8F2;'>Private Messaging</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Send a private message to another player that only they can see. Use <span style='color:#F2DDA4;'>/msg [player] [message]</span> to start a conversation. You can quickly reply to the last person who messaged you using <span style='color:#F2DDA4;'>/r [message]</span>.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/msg, /r</span>",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": "Utility"
+    },
+    {
+        "wikiName": "<span style='color:#C7A8F2;'>Link Discord Account</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Connect your Minecraft and Discord accounts to unlock special features. Linking your account syncs your server rank to a Discord role, lets you see the in-game chat in a dedicated Discord channel, and may be required for certain commands like <span style='color:#F2DDA4;'>/home</span>. Use the command in-game to get a code, then send it to the bot on Discord.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/discord link</span>",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": "Utility"
+    },
+    {
+        "wikiName": "<span style='color:#C7A8F2;'>GUI Shop</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Access the server's economy via a convenient graphical interface. You can buy and sell a wide variety of items, from basic resources to powerful gear. The shop uses <span style='color:#A8F2A4;'>⛃ SkillCoins</span> as its main currency. Browse categories like Combat, Enchantments, Resources, and Tools to find what you need.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/shop</span>",
         "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": "Economy"
     },
     {
-        "wikiName": "Link Discord Account",
-        "wikiDescription": "Links your Minecraft and Discord accounts using DiscordSRV. Grants synced roles and chat integration. Use the code in the #link channel on Discord.",
-        "wikiCommand": "/discord link",
+        "wikiName": "<span style='color:#C7A8F2;'>Send Money</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Securely transfer <span style='color:#A8F2A4;'>⛃ SkillCoins</span> to another player. This is perfect for trading, paying for services, or helping out a friend. You can view your current balance with <span style='color:#F2DDA4;'>/skillcoins balance</span> (or <span style='color:#F2DDA4;'>/sc bal</span>).</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/pay &lt;player&gt; &lt;amount&gt;</span>",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": "Economy"
+    },
+    {
+        "wikiName": "<span style='color:#C7A8F2;'>Skills System</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>This server uses <span style='color:#82DDF0;'>AuraSkills</span> to add a deep RPG-like progression. Performing actions like mining, fighting, or farming will grant you XP in the corresponding skill. As you level up skills, you'll gain permanent stat boosts (like more health or damage) and unlock powerful new abilities. Use <span style='color:#F2DDA4;'>/skills</span> to open the main menu and explore the different skill trees.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/skills</span>",
+        "wikiLinks": "https://github.com/AuraProfile/AuraSkills",
+        "wikiImages": "",
+        "wikiCategory": "Mechanics"
+    },
+    {
+        "wikiName": "<span style='color:#C7A8F2;'>Quest System</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Engage in a huge variety of quests, including tasks for mining, combat, crafting, fishing, and more. The quest list is dynamic, with new challenges rotating in <span style='color:#82DDF0;'>daily</span>. Quests also unlock progressively as the community completes server-wide goals. Use <span style='color:#F2DDA4;'>/quest</span> to see available quests, track your progress, and claim your rewards.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/quest</span>",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": "Mechanics"
+    },
+    {
+        "wikiName": "<span style='color:#C7A8F2;'>Rogue Wanderer</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>A server-wide boss hunt! The Rogue Wanderer is a mysterious and powerful NPC that roams the world. Your goal is to find and defeat it. You'll receive hints to its location using <span style='color:#F2DDA4;'>/hint</span>, with new hints provided after each defeat and daily at 15:00 server time. Defeating the Wanderer three times yields a coveted <span style='color:#82DDF0;'>Beam Stone</span>.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/hint</span>",
+        "wikiLinks": "",
+        "wikiImages": "",
+        "wikiCategory": "Mechanics"
+    },
+    {
+        "wikiName": "<span style='color:#C7A8F2;'>Teams</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Group up with friends by creating or joining a team. Being on a team allows you to use a private team chat and work together more easily. Use <span style='color:#F2DDA4;'>/team invite [player]</span> to add members or <span style='color:#F2DDA4;'>/team chat</span> to toggle your private chat channel.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/team</span>",
         "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": "Utility"
     },
     {
-        "wikiName": "Skills System",
-        "wikiDescription": "With ValhallaMMO, you gain access to a deep RPG skill system on the server. You can level up skills like Mining, Combat, Farming, Woodcutting, Fishing, and more by performing related actions. Every time you level up one of these skills, your overall power level increases. Each time your power level goes up, you earn a skill point. These skill points can be spent to unlock abilities within the skill trees, allowing you to customize your strengths and unlock powerful upgrades. The skills menu is designed as a wheel, where the selected skill moves to the center, and other skills remain visible around it. Use /skills to view your progress and /skill <name> to see details about each skill’s abilities, requirements, and skill tree.",
-        "wikiCommand": "/skills, /skill <name>",
-        "wikiLinks": "https://github.com/Athlaeos/ValhallaMMO/wiki",
+        "wikiName": "<span style='color:#C7A8F2;'>Player Graves</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Death isn't the end! When you die, a grave is automatically created at your death location, securely storing all of your items. Only you can access your grave's contents, protecting your loot from other players. This gives you time to get back to your items without fear of them despawning or being stolen.</span>",
+        "wikiCommand": "<span style='color:#82DDF0;'>Automatic</span>",
+        "wikiLinks": "",
         "wikiImages": "",
         "wikiCategory": "Mechanics"
     },
     {
-        "wikiName": "Rogue Wanderer",
-        "wikiDescription": "The Rogue Wanderer is a unique NPC that everyone hunts. Defeat it three times to earn a Beam Stone. You receive a new hint every time you defeat it, and hints are updated daily at 15:00. Check the Discord for notifications. As you get closer to the Rogue Wanderer, you will receive additional hints to aid your hunt.",
-        "wikiCommand": "/hint",
+        "wikiName": "<span style='color:#C7A8F2;'>Creative Plots</span>",
+        "wikiDescription": "<span style='color:#EAEAEA;'>Unleash your creativity in a separate world designed for building. Claim your own personal plot of land where you have creative mode access. It's the perfect place to test out redstone contraptions, design magnificent structures, or just build for fun without worrying about resources or monsters. Use <span style='color:#F2DDA4;'>/plot auto</span> to claim the nearest available plot.</span>",
+        "wikiCommand": "<span style='color:#F2DDA4;'>/plot</span>",
         "wikiLinks": "",
         "wikiImages": "",
-        "wikiCategory": "Mechanics"
+        "wikiCategory": "Utility"
     }
 ]
